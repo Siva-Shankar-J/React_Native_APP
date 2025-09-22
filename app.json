@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "FlyScan",
+    "slug": "qr-code-scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/small-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sct2025.qrcodescanner"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "78ee2a41-493c-4194-8a82-38bb1cf018fb"
+      }
+    },
+    "owner": "siva_shankar"
+  }
+}
