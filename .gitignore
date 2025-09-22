@@ -4,14 +4,11 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
-=======
 
 # Diagnostic reports (Node.js)
->>>>>>> 0355f11 (Add .gitignore for React Native Expo project)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
@@ -49,7 +46,7 @@ jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
-=======
+
 # Dependency directories
 node_modules/
 .expo/
@@ -68,7 +65,7 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage/
 .nyc_output/
->>>>>>> 0355f11 (Add .gitignore for React Native Expo project)
+
 
 # TypeScript cache
 *.tsbuildinfo
@@ -164,7 +161,7 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-=======
+
 # Expo build files and cache
 .expo/
 .web-build/
@@ -185,4 +182,4 @@ ios/
 .env
 .env.*
 !.env.example
->>>>>>> 0355f11 (Add .gitignore for React Native Expo project)
+
